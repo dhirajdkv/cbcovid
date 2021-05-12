@@ -22,9 +22,9 @@ app.use(cors());
 // app.post('/api/v1.0/task',taskController.createTask);
 //
 // // Get all task resource
-app.get('/',(req, res) => {
-	return res.status(200).json({ code: "taskCreated", message: "taskCreatedSuccessfully" });
-});
+// app.get('/',(req, res) => {
+// 	return res.status(200).json({ code: "taskCreated", message: "taskCreatedSuccessfully" });
+// });
 //
 // // Get task by id
 // app.get('/api/v1.0/task/id/:taskId',taskController.getTaskById);
